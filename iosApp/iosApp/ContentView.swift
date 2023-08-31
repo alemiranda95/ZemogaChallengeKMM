@@ -17,7 +17,7 @@ struct ContentView: View {
                 }
         } else {
             if #available(iOS 16.0, *) {
-                MainView(databaseDriverFactory: DatabaseDriverFactory())
+                MainView()
                     .transition(.opacity)
                     .animation(.easeIn)
             } else {

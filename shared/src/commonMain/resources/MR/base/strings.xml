@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resources>
     <string name="pull_down_to_load_label">Pull down to load posts</string>
+    <string name="splash_created_with_kmm">Created with KMM</string>
 </resources>

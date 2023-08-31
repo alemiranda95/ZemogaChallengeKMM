@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import dev.icerock.moko.resources.compose.painterResource
+import dev.icerock.moko.resources.compose.stringResource
 
 @Composable
 fun Splash() {
@@ -25,10 +26,10 @@ fun Splash() {
         ) {
             Image(
                 painter = painterResource(SharedResources.images.zemoga_logo),
-                contentDescription = "Zemoga Logo"
+                contentDescription = "Zemoga"
             )
             Text(
-                text = "Created with KMM",
+                text = stringResource(SharedResources.strings.splash_created_with_kmm),
                 style = MaterialTheme.typography.h6,
                 modifier = Modifier.padding(top = 16.dp)
             )

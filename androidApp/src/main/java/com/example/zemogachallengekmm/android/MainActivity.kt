@@ -114,11 +114,6 @@ fun MainScreen(
 }
 
 @Composable
-fun stringResource(id: StringResource, vararg args: Any): String {
-    return Strings(LocalContext.current).get(id, args.toList())
-}
-
-@Composable
 fun FloatingActionButton(viewModel: PostViewModel) {
     FloatingActionButton(
         modifier = Modifier
@@ -205,4 +200,9 @@ fun PullToRefreshScreen(
             }
         }
     }
+}
+
+@Composable
+fun stringResource(id: StringResource, vararg args: Any): String {
+    return Strings(LocalContext.current).get(id, args.toList())
 }

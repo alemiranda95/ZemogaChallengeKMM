@@ -15,8 +15,8 @@ struct MainView: View {
     
     @ObservedViewModel var viewModel: PostViewModel
 
-    init(databaseDriverFactory: DatabaseDriverFactory) {
-        viewModel = PostViewModel(databaseDriverFactory: databaseDriverFactory)
+    init() {
+        viewModel = PostViewModel(databaseDriverFactory: DatabaseDriverFactory())
         viewModel.getPostsFromDB()
     }
     
