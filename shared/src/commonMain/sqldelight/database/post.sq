@@ -1,0 +1,22 @@
+CREATE TABLE postEntity(
+    id INTEGER NOT NULL PRIMARY KEY,
+    userId INTEGER NOT NULL,
+    title TEXT NOT NULL,
+    body TEXT NOT NULL
+);
+
+getPosts:
+SELECT *
+FROM postEntity;
+
+insertPost:
+INSERT OR REPLACE
+INTO postEntity(
+    id,
+    userId,
+    title,
+    body
+) VALUES (?, ?, ?, ?);
+
+deletePosts:
+DELETE FROM postEntity;
