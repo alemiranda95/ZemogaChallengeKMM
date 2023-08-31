@@ -36,7 +36,6 @@ kotlin {
         val ktorVersion = "2.3.1"
         val sqlDelightVersion = "1.5.5"
         val kmmViewModelVersion = "1.0.0-ALPHA-7"
-        val lifecycleVersion = "2.5.1"
 
         all {
             languageSettings.optIn("kotlin.experimental.ExperimentalObjCName")
@@ -124,7 +123,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-    sourceSets["main"].resources.srcDir("src/commonMain/resources")
 }
 
 dependencies {

@@ -25,6 +25,10 @@ render.experimental.xml
 # Android Profiling
 *.hprof
 
+# KMM
 .DS_Store
 shared/.DS_Store
 shared/src/.DS_Store
+iosApp/iosApp.xcodeproj/project.xcworkspace/xcuserdata/
+
+
