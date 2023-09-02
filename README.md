@@ -6,7 +6,7 @@
 ![ios-2](/images/ios-2.png)
 
 ## About
-This app is the Zemoga employment selection challenge developed using Kotlin Multiplatform Mobile. 
+This app is the Zemoga employment selection challenge developed using Kotlin Multiplatform Mobile.
 
 It consists in an app that retrieves and displays posts and their information from a public REST api.
 
@@ -16,6 +16,7 @@ The architecture used was MVVM with Clean Architecture.
 The entire business logic is encapsulated in the shared module, which is used by both platforms.
 
 The corresponding UI for each platform was implemented natively.
+
 ![architecture](/images/architecture.png)
 
 ## Libraries
